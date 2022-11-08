@@ -2,7 +2,7 @@ import os
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hi! I respond by echoing messages. Give it a try!")
+    context.bot.send_message(chat_id=update.effective_chat.id, text="2! I respond by echoing messages. Give it a try!")
 
 def echo(update, context):
     """Echo the user message."""
